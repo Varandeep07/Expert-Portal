@@ -2,7 +2,6 @@ import { useParams } from 'react-router-dom';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import expertsData from './ExpertData.json';
 import './expertProfileStyles.css';
-// import imageUrl from '../../public/images'
 
 export default function ExpertProfile() {
   let { id } = useParams();
