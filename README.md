@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Running this project - 
+
+1. Run npm install in the source directory
+2. Run npm install for below mentioned directories <br/>
+   2.1 react-bootstrap</br>
+   2.2 bootstrap<br/>
+   2.3 react-router<br/>
+
+Done!
+
 ## Available Scripts
 
 In the project directory, you can run:
