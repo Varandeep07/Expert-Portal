@@ -2,24 +2,23 @@ import { useParams } from 'react-router-dom';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import expertsData from './ExpertData.json';
 import './expertProfileStyles.css';
+// import imageUrl from '../../public/images'
 
 export default function ExpertProfile() {
   let { id } = useParams();
-  const url = "http://localhost:3000";
-  console.log(id); 
+  
   const expert = expertsData[id-1];
   const ListLang = expert.Languages.map(lang=>{
     return (<span>{lang}</span>);
   }); 
-  console.log(expert); 
-  console.log(url+`${expert.imageUrl}`); 
+  
   return (   
     <div className="my-5">
       <Container>
         <Row className="my-5">
           <Col sm={12} md={4}>
             <Card className="h-100">
-              <Card.Img className='img-fluid my-5' variant="top" src={url+expert.imageUrl} alt='img not found'/>
+              <Card.Img className='img-fluid my-5' variant="top" src={expert.imageUrl} alt='img not found'/>
             </Card>
           </Col>
           <Col sm={12} md={8}>
