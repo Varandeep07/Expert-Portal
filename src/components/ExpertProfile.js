@@ -63,7 +63,7 @@ const ExpertProfile = () => {
           </Col>
         </Row>
         <Button variant="outline" href="/" >
-        🡰 Back to Expert List
+         Back to Expert List
         </Button>
       </Container>
     </div>

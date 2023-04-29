@@ -23,7 +23,7 @@ const App = () => {
   const indexOfFirstPost = indexOfLastPost - (indexOfLastPost===posts.length && posts.length%postsPerPage!==0? posts.length%postsPerPage:postsPerPage);
   
   // slicing the current page's profiles from json file
-  const currentPosts = posts.slice(indexOfFirstPost,indexOfLastPost);
+  const currentPosts = posts.slice(indexOfFirstPost,indexOfLastPost); 
  
   // change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
