@@ -3,7 +3,7 @@ import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import expertsData from './ExpertData.json';
 import './expertProfileStyles.css';
 
-export default function ExpertProfile() {
+const ExpertProfile = () => {
   let { id } = useParams();
   
   const expert = expertsData[id-1];
@@ -69,3 +69,5 @@ export default function ExpertProfile() {
     </div>
   );
 }
+
+export default ExpertProfile;

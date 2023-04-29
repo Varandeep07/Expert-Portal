@@ -1,7 +1,7 @@
 import React from 'react';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav} from 'react-bootstrap';
 
-function CustomNavbar() {
+const CustomNavbar = () => {
   return (
     <Navbar className="navbar navbar-light shadow rounded-lg" style={{backgroundColor:"#eee7b2"}}>
       <Navbar.Brand href="/" style={{marginLeft: "10px"}}><bold>Expert Portal</bold></Navbar.Brand>

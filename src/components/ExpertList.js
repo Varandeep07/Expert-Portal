@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 
-export default function ExpertList({posts}){ 
+const ExpertList = ({posts}) => { 
  
   const ListItems = posts.map(val => {
     return (
@@ -27,8 +27,10 @@ export default function ExpertList({posts}){
   
   return (
     <div className='container'>
-      <h1 className='text-center my-5  '>Meet Our Experts</h1>
+      <h1 className='text-center my-5'>Meet Our Experts</h1>
         {ListItems}
     </div>
   );
 }
+
+export default ExpertList;
