@@ -4,11 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Running this project - 
 
-1. Run npm install in the source directory
-2. Run npm install for below mentioned directories <br/>
-   2.1 react-bootstrap</br>
-   2.2 bootstrap<br/>
-   2.3 react-router<br/>
+1. Run `npm install i` in the project folder 
+2. Run `npm start`
 
 Done!
 
